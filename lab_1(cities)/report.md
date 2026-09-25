@@ -21,7 +21,7 @@
 
 Посилання на опубліковану сторінку:
 
-https://quzay.github.io/my-best-cities/index.html
+https://quzay.github.io/Web/lab_1(cities)/
 
 Скріншот результату:
 
