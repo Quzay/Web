@@ -54,7 +54,7 @@ https://quzay.github.io/Web/lab_3/index.html
 
 Mobile (375px):
 
-![Mobile](/lab_3/screenshots/375px.png.png)
+![Mobile](/lab_3/screenshots/375px.png)
 
 Tablet (768px):
 
