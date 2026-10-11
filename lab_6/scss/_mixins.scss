@@ -1,0 +1,40 @@
+@use "variables" as v;
+
+@mixin respond-to($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin container {
+  width: min(100% - 32px, v.$container-max);
+  margin-inline: auto;
+}
+
+@mixin gutter($property: margin-inline) {
+  #{$property}: v.$space-md;
+
+  @include respond-to(v.$bp-tablet) {
+    #{$property}: v.$space-xl;
+  }
+}
+
+@mixin responsive-grid($tablet, $desktop, $gap: v.$space-md) {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $gap;
+
+  @include respond-to(v.$bp-tablet) {
+    grid-template-columns: repeat($tablet, 1fr);
+  }
+
+  @include respond-to(v.$bp-desktop) {
+    grid-template-columns: repeat($desktop, 1fr);
+  }
+}
