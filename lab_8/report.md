@@ -33,6 +33,7 @@
 
 ## Структура проєкту
 
+```
 lab_8/
 ├── index.html
 ├── css/
@@ -54,7 +55,7 @@ lab_8/
 ├── package.json
 ├── tsconfig.json
 └── .gitignore
-
+```
 
 ## Результат
 
