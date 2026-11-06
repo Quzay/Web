@@ -64,7 +64,7 @@ lab_9/acoustic-watch/
 
 Посилання на опубліковану сторінку:
 
-https://quzay.github.io/WEB/lab_9/acoustic-watch/dist/acoustic-watch/browser/
+https://quzay.github.io/Web/lab_9/acoustic-watch/dist/acoustic-watch/browser/
 
 
 ## Висновок
